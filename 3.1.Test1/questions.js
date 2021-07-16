@@ -11,7 +11,7 @@ let concatString = (texte1, texte2) => {
     return texte1.concat(texte2);
 }
 let afficherCar5 =  (texte) => {
-    return texte[4] ? text[4] : "undefined : index of range";
+    return texte[4];
 }
 let afficher9Car =  (texte) => {
     return texte.slice(0, 9);
@@ -52,11 +52,11 @@ let valeurAbsolueArray =  (array) => {
     return array.map(Math.abs);
 }
 let sufaceCercle =  (rayon) => {
-    return (rayon * rayon * Math.PI); 
+    return Math.round(rayon * rayon * Math.PI); 
 }
 let hypothenuse =  (ab, ac) => {
     return Math.hypot(ab, ac);
 }
 let calculIMC =  (poids, taille) => {
-    poids / Math.pow(taille, 2);
+    return parseFloat((poids / Math.pow(taille, 2)).toFixed(2));
 }
