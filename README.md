@@ -1,2 +1,2 @@
 # Jasmine Check 
-> Unit Tests
+> Jasmine, unit tests.
